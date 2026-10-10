@@ -5,10 +5,10 @@ insert into user_account (email, display_name, role, created_at) values
     ('ola@student.merito.pl',   'Ola',   'USER',    current_timestamp),
     ('kuba@student.merito.pl',  'Kuba',  'USER',    current_timestamp),
     ('firma@example.com',       'Firma', 'PARTNER', current_timestamp),
-    ('admin@example.com',       'Admin', 'ADMIN',   current_timestamp);
-    (piotr.przadka@student.merito.pl',  'Piotr',  'USER',    current_timestamp),
-    (mateusz.sierakowski@student.merito.pl',  'Mateusz',  'USER',    current_timestamp),
-    (grzegorz.pisowicz@student.merito.pl',  'Grzegorz',  'USER',    current_timestamp),
+    ('admin@example.com',       'Admin', 'ADMIN',   current_timestamp),
+    ('piotr.przadka@student.merito.pl',  'Piotr',  'USER',    current_timestamp),
+    ('mateusz.sierakowski@student.merito.pl',  'Mateusz',  'USER',    current_timestamp),
+    ('grzegorz.pisowicz@student.merito.pl',  'Grzegorz',  'USER',    current_timestamp);
 
 
 
