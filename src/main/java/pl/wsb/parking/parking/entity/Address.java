@@ -1,4 +1,4 @@
-package pl.wsb.parking.entity;
+package pl.wsb.parking.parking.entity;
 
 import jakarta.persistence.Embeddable;
 

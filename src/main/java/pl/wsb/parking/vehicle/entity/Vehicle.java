@@ -1,4 +1,4 @@
-package pl.wsb.parking.entity;
+package pl.wsb.parking.vehicle.entity;
 
 import jakarta.persistence.*;
 
