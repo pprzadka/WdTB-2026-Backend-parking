@@ -16,7 +16,7 @@ insert into user_account (email, display_name, role, created_at) values
 
 -- ===== LAB 02 · parkingi =====
 -- ===== LAB 02 · pojazdy =====
--- ===== LAB 02 · bilety =====
+-- ===== LAB 02 · użytkownicy =====
 
 
 
