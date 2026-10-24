@@ -18,10 +18,12 @@ insert into user_account (email, display_name, role, created_at) values
 INSERT INTO parking (name, capacity, hourly_rate, is_open, street, city, postal_code) VALUES ('Galeria Mokotów', 200, 6.50, true, 'Wołoska 12', 'Warszawa', '02-675');
 INSERT INTO parking (name, capacity, hourly_rate, is_open, street, city, postal_code) VALUES ('Parking Centrum', 80, 5.00, true, 'Piotrkowska 45', 'Łódź', '90-425');
 INSERT INTO parking (name, capacity, hourly_rate, is_open, street, city, postal_code) VALUES ('Stadion Narodowy', 500, 4.00, false, 'Księcia Józefa Poniatowskiego 1', 'Warszawa', '03-901');
--- ===== LAB 02 · pojazdy =====
+
+-- ===== LAB 02 · vehicle =====
 INSERT INTO vehicle (license_plate, brand, model, production_year, color) VALUES ('WA12345', 'Skoda', 'Octavia', 2020, 'Czarny');
 INSERT INTO vehicle (license_plate, brand, model, production_year, color) VALUES ('PO98765', 'Volkswagen', 'Golf', 2018, 'Srebrny');
 INSERT INTO vehicle (license_plate, brand, model, production_year, color) VALUES ('KR11122', 'Tesla', 'Model 3', 2023, 'Biały');
+
 -- ===== LAB 02 · app_user =====
 INSERT INTO app_user (username, email, phone_number, is_active, role) VALUES ('jan_kowalski', 'jan@example.com', '500600700', true, 'DRIVER');
 INSERT INTO app_user (username, email, phone_number, is_active, role) VALUES ('anna_nowak', 'anna@example.com', '600700800', true, 'OWNER');
